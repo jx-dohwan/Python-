@@ -10,7 +10,7 @@ import pickle
 # file.close()
 
 # 2. pickle 파일을 파이썬으로 가져오기
-file = open("./myvenv/Chapter10/data.pickle", "rb")
+file = open(". /myvenv/Chapter10/data.pickle", "rb")
 data = pickle.load(file)
 print(data)
 file.close()

@@ -17,6 +17,6 @@ print(C(2.7))
 # : 다른 사람이 만든 파이썬 파일을 pip로 설치해서 사용
 # pyautogui
 
-import pyautogui as pg
+import pyautogui as pg # 마우스 키도드를 자동으로 움직임
 
-pg.moveTo(500,500, duration=2)
+pg.moveTo(500,500, duration=2) # 마우스를 자동으로 움직임
